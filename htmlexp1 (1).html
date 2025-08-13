@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My First HTML Page</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#table">Table</a> |
+      <a href="#lists">Lists</a> |
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <section>
+    <p>This is my first HTML page.</p>
+    <p>Practicing HTML helps build the foundation for web development.</p>
+    <hr>
+  </section>
+
+  <section id="table">
+    <h2>Sample Table</h2>
+    <table border="1">
+      <caption>Example Timetable</caption>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Morning</th>
+          <th>Afternoon</th>
+          <th>Evening</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Monday</th>
+          <td>Maths</td>
+          <td>history</td>
+          <td rowspan="2">Sports</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td colspan="2">science</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>Art</td>
+          <td>Music</td>
+          <td>Coding</td>s
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="lists">
+    <h2>Lists</h2>
+    <ul>
+      <li>Learn HTML
+        <ul>
+          <li>Tags</li>
+          <li>Attributes</li>
+        </ul>
+      </li>
+      <li>Practice CSS</li>
+      <li>Build Projects</li>
+      <li>Upload Online</li>
+      <li>Get Feedback</li>
+    </ul>
+    <h3>Top Priorities</h3>
+    <ol>
+      <li>Finish HTML basics</li>
+      <li>Start CSS</li>
+      <li>Learn JavaScript basics</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Links</h2>
+    <a href="#media">Go to Media Section</a> |
+    <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a> |
+    <a href="mailto:someone@example.com">Email Me</a>
+  </section>
+
+  <section>
+    <h2>Images</h2>
+    <img src="assets/photo1.jpg" alt="Example Image 1" width="300">
+    <img src="assets/photo2.png" alt="Example Image 2" width="300">
+  </section>
+
+  <section id="media">
+    <h2>Audio and Video</h2>
+    <audio controls src="assets/sample.mp3">Your browser does not support audio.</audio>
+    <br>
+    <video controls width="480" poster="assets/poster.png">
+      <source src="assets/sample.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Example Website</p>
+  </footer>
+</body>
+</html>
+ 
